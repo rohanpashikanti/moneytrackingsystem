@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+header {
+    text-align: center;
+    padding: 20px;
+}
+#balance-section {
+    text-align: center;
+    margin-bottom: 20px;
+}
+form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+form input, form select, form button {
+    padding: 10px;
+    font-size: 16px;
+}
+#transactions-list {
+    list-style: none;
+    padding: 0;
+}
+#transactions-list li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: #fff;
+}
